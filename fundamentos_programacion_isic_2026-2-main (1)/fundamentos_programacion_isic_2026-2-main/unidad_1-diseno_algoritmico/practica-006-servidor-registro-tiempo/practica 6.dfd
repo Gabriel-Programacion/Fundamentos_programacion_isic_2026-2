@@ -1,0 +1,49 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+5
+1
+15
+segundostotales
+6
+3
+5
+horas
+27
+trunc(segundostotales/3600)
+7
+segRest
+24
+segundosTotales mod 3600
+7
+minutos
+19
+trunc(segRest / 60)
+6
+3
+6
+segFin
+14
+segRest mod 60
+9
+tiempo(1)
+5
+horas
+9
+tiempo(2)
+7
+minutos
+6
+1
+9
+tiempo(3)
+6
+segfin
+4
+1
+67
+'Horas:', tiempo(1), 'Minutos:', tiempo(2), 'Segundos:', tiempo(3) 
+1

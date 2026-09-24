@@ -1,0 +1,37 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+39
+'Ingrese el tiempo de respuesta en ms:'
+5
+1
+15
+tiempoRespuesta
+6
+2
+10
+SLA_LIMITE
+5
+200.0
+9
+cumpleSLA
+29
+tiempoRespuesta <= SLA_LIMITE
+4
+1
+31
+'AUDITORIA DE CUMPLIMIENTO SLA'
+4
+1
+51
+'Tiempo de respuesta registrado: ', tiempoRespuesta
+4
+1
+45
+'Cumple el acuerdo SLA (200 ms): ', cumpleSLA
+1

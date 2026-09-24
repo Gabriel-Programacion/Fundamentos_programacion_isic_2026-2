@@ -1,0 +1,45 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+29
+'Ingrese la capacidad en GB:'
+5
+1
+11
+capacidadGB
+6
+3
+11
+capacidadMB
+18
+capacidadGB * 1024
+11
+capacidadkb
+18
+capacidadMB * 1024
+11
+capacidadtb
+18
+capacidadGB / 1024
+4
+1
+30
+'CONVERSIÓN DE ALMACENAMIENTO'
+4
+1
+31
+'Kilobytes (KB): ', capacidadKB
+4
+1
+31
+'Megabytes (MB): ', capacidadMB
+4
+1
+31
+'Terabytes (TB): ', capacidadTB
+1

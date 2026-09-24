@@ -1,0 +1,45 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+30
+'Ingrese el promedio general:'
+5
+1
+15
+promedioGeneral
+4
+1
+33
+'Ingrese los creditos aprobados:'
+5
+1
+17
+creditosAprobados
+6
+1
+10
+esElegible
+54
+(promedioGeneral >= 85.0)AND (creditosAprobados >= 45)
+4
+1
+32
+'DICTAMEN BECA DE INVESTIGACION'
+4
+1
+37
+'Promedio General: ', promedioGeneral
+4
+1
+41
+'Creditos Aprobados: ', creditosAprobados
+4
+1
+34
+'Elegible para Beca: ', esElegible
+1

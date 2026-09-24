@@ -1,0 +1,173 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+22
+'Nombre del proyecto:'
+5
+1
+14
+nombreProyecto
+4
+1
+30
+'Horas totales de desarrollo:'
+5
+1
+15
+horasDesarrollo
+4
+1
+17
+'Costo por hora:'
+5
+1
+9
+costoHora
+4
+1
+33
+'Presupuesto maximo del cliente:'
+5
+1
+20
+presupuestoCliente
+
+4
+1
+34
+'Plazo maximo del cliente (dias):'
+5
+1
+18
+plazoClienteDias
+
+6
+3
+14
+JORNADA_DIARIA
+1
+8
+11
+DIAS_SEMANA
+1
+5
+8
+subtotal
+27
+horasDesarrollo * costoHora
+6
+3
+11
+imprevistos
+15
+subtotal * 0.12
+9
+descuento
+15
+subtotal * 0.05
+14
+costoTotalNeto
+33
+subtotal + imprevistos -descuento
+6
+3
+11
+impuestoIVA
+21
+costoTotalNeto * 0.16
+9
+granTotal
+28
+costoTotalNeto + impuestoIVA
+11
+diasTotales
+37
+trunc(horasDesarrollo /ORNADA_DIARIA)
+6
+3
+14
+horasSobrantes
+33
+horasDesarrollo modJORNADA_DIARIA
+16
+semanasLaborales
+31
+trunc(diasTotales /DIAS_SEMANA)
+17
+presupuestoViable
+30
+granTotal <=presupuestoCliente
+6
+2
+11
+plazoViable
+30
+diasTotales <=plazoClienteDias
+16
+proyectoAprobado
+32
+presupuestoViable ANDplazoViable
+4
+1
+32
+'INFORME FINANCIERO Y DE TIEMPO'
+4
+1
+28
+'Proyecto: ', nombreProyecto
+4
+1
+38
+'Subtotal Mano de Obra: $', subtotal
+
+4
+1
+35
+'Imprevistos (12%): $', imprevistos
+4
+1
+41
+'Descuento Convenio (5%): $', descuento
+
+4
+1
+37
+'Costo Total Neto: $', costoTotalNeto
+4
+1
+40
+'Impuesto Licencias IVA: $', impuestoIVA
+4
+1
+35
+'GRAN TOTAL A COBRAR: $', granTotal
+4
+1
+40
+'Dias totales requeridos: ', diasTotales
+4
+1
+43
+'Horas sobrantes del dia: ', horasSobrantes
+4
+1
+49
+'Semanas laborales completas: ', semanasLaborales
+4
+1
+41
+'Presupuesto Viable: ', presupuestoViable
+4
+1
+29
+'Plazo Viable: ', plazoViable
+4
+1
+39
+'PROYECTO APROBADO: ', proyectoAprobado
+1

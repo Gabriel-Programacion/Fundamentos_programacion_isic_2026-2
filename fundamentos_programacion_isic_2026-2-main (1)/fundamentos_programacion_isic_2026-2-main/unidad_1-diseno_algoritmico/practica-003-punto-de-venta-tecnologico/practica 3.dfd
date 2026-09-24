@@ -1,0 +1,65 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+35
+'Ingrese el precio del Producto 1:'
+5
+1
+11
+precioProd1
+4
+1
+35
+'Ingrese el precio del Producto 2:'
+5
+1
+11
+precioProd2
+4
+1
+35
+'Ingrese el precio del Producto 3:'
+5
+1
+11
+precioProd3
+6
+3
+8
+subtotal
+39
+precioProd1 + precioProd2 + precioProd3
+8
+montoIVA
+15
+subtotal * 0.16
+10
+totalFinal
+25
+subtotal + montoIVA + 150
+4
+1
+18
+'TICKET DE COMPRA'
+4
+1
+23
+'Subtotal: $', subtotal
+4
+1
+24
+'IVA (16%): $', montoIVA
+4
+1
+25
+'Costo de Envio: $150.00'
+4
+1
+30
+'TOTAL A PAGAR: $', totalFinal
+1

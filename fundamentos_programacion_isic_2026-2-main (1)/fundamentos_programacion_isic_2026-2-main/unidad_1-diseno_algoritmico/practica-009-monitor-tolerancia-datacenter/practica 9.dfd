@@ -1,0 +1,55 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+29
+'Ingrese la temperatura (C):'
+5
+1
+11
+temperatura
+4
+1
+34
+'Ingrese la humedad relativa (%):'
+5
+1
+7
+humedad
+6
+3
+6
+tempOk
+46
+(temperatura >= 18.0) AND(temperatura <= 24.0)
+9
+humedadOk
+38
+(humedad >= 40.0) AND(humedad <= 60.0)
+18
+operacionNormativa
+20
+tempOk AND humedadOk
+6
+1
+12
+alertaRiesgo
+39
+(temperatura > 24.0) OR(humedad > 60.0)
+4
+1
+34
+'MONITOR DE TOLERANCIA DATACENTER'
+4
+1
+43
+'Operacion Normativa: ', operacionNormativa
+4
+1
+35
+'Alerta por Riesgo: ', alertaRiesgo
+1

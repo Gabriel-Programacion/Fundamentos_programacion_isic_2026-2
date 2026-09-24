@@ -1,0 +1,45 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+32
+'Ingrese calificacion Examenes:'
+5
+1
+12
+notaExamenes
+4
+1
+33
+'Ingrese calificacion Practicas:'
+5
+1
+13
+notaPracticas
+4
+1
+32
+'Ingrese calificacion Proyecto:'
+5
+1
+12
+notaProyecto
+4
+1
+30
+'Ingrese calificacion Tareas:'
+5
+1
+10
+notaTareas
+6
+1
+17
+promedioPonderado
+91
+(notaExamenes * 0.40) + (notaPracticas * 0.30) +(notaProyecto * 0.20) + (notaTareas * 0.10)
+1
