@@ -1,0 +1,165 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+3
+11
+saldoCuenta
+6
+5000.0
+15
+totalDepositado
+3
+0.0
+13
+totalRetirado
+3
+0.0
+6
+3
+8
+exitosas
+1
+0
+8
+rechazos
+1
+0
+6
+opcion
+1
+1
+9
+1
+11
+opcion != 0
+4
+1
+27
+'MENU: 1-Procesar, 0-Salir'
+5
+1
+6
+opcion
+7
+0
+1
+10
+opcion = 1
+13
+4
+1
+29
+'Ingrese tipo (1:Dep,2:Ret):'
+5
+1
+4
+tipo
+4
+1
+19
+'Ingrese el monto:'
+5
+1
+5
+monto
+7
+0
+1
+8
+monto >0
+4
+1
+23
+'Error: Monto invalido'
+13
+7
+0
+1
+7
+tipo =1
+7
+0
+1
+7
+tipo =2
+4
+1
+15
+'Tipo invalido'
+13
+7
+0
+1
+14
+monto <= saldo
+4
+1
+22
+'Fondos insuficientes'
+6
+1
+8
+rechazos
+12
+rechazos + 1
+13
+6
+3
+11
+saldoCuenta
+18
+saldoCuenta- monto
+13
+totalRetirado
+20
+totalRetirado +monto
+8
+exitosas
+12
+exitosas + 1
+13
+13
+13
+6
+3
+11
+saldoCuenta
+19
+saldoCuenta + monto
+15
+totalDepositado
+22
+totalDepositado+ monto
+8
+exitosas
+12
+exitosas + 1
+13
+13
+13
+11
+4
+1
+28
+'Saldo final: ', saldoCuenta
+4
+1
+36
+'Total depositado: ',totalDepositado
+4
+1
+32
+'Total retirado: ',totalRetirado
+4
+1
+22
+'Exitosas: ', exitosas
+4
+1
+24
+'Rechazadas: ', rechazos
+1

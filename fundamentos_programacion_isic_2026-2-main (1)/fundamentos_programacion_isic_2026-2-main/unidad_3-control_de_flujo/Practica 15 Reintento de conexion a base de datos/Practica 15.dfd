@@ -1,0 +1,64 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+2
+7
+intento
+2
+-1
+14
+estadoConexion
+2
+-0
+9
+1
+34
+intento <= 3 AND estadoConexion =0
+4
+1
+21
+'Ingrese contrasena:'
+5
+1
+17
+passwordIngresada
+7
+0
+1
+32
+passwordIngresada = 'dbpass1 23'
+6
+1
+7
+intento
+12
+- intento +1
+13
+6
+1
+14
+estadoConexion
+2
+-1
+13
+7
+0
+1
+17
+estadoConexion =1
+4
+1
+18
+'Conexion exitosa'
+13
+4
+1
+19
+'Intentos agotados'
+13
+11
+1

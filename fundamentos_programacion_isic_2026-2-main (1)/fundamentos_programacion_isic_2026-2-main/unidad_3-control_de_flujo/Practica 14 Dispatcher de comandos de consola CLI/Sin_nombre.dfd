@@ -1,0 +1,51 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+23
+'1. Reiniciar Servicio'
+4
+1
+19
+'2. Mostrar Estado'
+4
+1
+18
+'3. Limpiar Cache'
+4
+1
+18
+'4. Cerrar Sesion'
+4
+1
+30
+'Seleccione una opcion (1-4):'
+5
+1
+10
+opcionMenu
+4
+1
+22
+'Reiniciando Servicio'
+4
+1
+18
+'Mostrando Estado'
+4
+1
+17
+'Limpiando Cache'
+4
+1
+17
+'Cerrando Sesion'
+4
+1
+17
+'Opcion Invalida'
+1

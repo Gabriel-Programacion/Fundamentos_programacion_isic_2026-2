@@ -1,0 +1,105 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+30
+'Ingrese total de registros: '
+5
+1
+14
+totalRegistros
+6
+3
+7
+cant200
+1
+0
+7
+cant4xx
+1
+0
+7
+cant5xx
+1
+0
+6
+1
+1
+i
+1
+1
+9
+1
+19
+i <= totalRegistros
+6
+1
+1
+i
+3
+i+1
+4
+1
+23
+'Ingrese codigo HTTP: '
+5
+1
+10
+codigoHTTP
+7
+0
+1
+16
+codigoHTTP = 200
+7
+0
+1
+39
+codigoHTTP >= 400 AND codigoHTTP <= 499
+7
+0
+1
+39
+codigoHTTP >= 500 AND codigoHTTP <= 599
+13
+6
+1
+7
+cant5xx
+11
+cant5xx + 1
+13
+13
+6
+1
+7
+cant4xx
+11
+cant4xx + 1
+13
+13
+6
+1
+7
+cant200
+9
+cant200+1
+13
+11
+4
+1
+25
+'Exitos (200): ', cant200
+4
+1
+33
+'Errores Cliente (4xx): ',cant4xx
+4
+1
+34
+'Errores Servidor (5xx): ',cant5xx
+1

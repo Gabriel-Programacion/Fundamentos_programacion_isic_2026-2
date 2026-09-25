@@ -1,0 +1,52 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+2
+15
+totalDescargado
+3
+0.0
+11
+numArchivos
+1
+0
+9
+1
+22
+totalDescargado <100.0
+4
+1
+38
+'Ingrese el tamano del archivo en MB:'
+5
+1
+13
+tamanoArchivo
+6
+2
+15
+totalDescargado
+31
+totalDescargado + tamanoArchivo
+11
+numArchivos
+15
+numArchivos + 1
+4
+1
+38
+'Total acumulado MB: ',totalDescargado
+11
+4
+1
+45
+'Cuota alcanzada. Total MB: ',totalDescargado
+4
+1
+35
+'Archivos procesados: ',numArchivos
+1
