@@ -1,18 +1,19 @@
 # Análisis Entrada-Proceso-Salida (IPO)
 
-## 1. Planteamiento del Problema
-[Redacta con tus palabras el problema a resolver y los objetivos esperados].
+## Práctica 01: Alta de Registro de Estudiante en el Sistema Universitario
 
-## 2. Tabla Entrada-Proceso-Salida
+### 1. Planteamiento del Problema
+El Departamento de Servicios Escolares de la universidad requiere un módulo algorítmico inicial para registrar a los alumnos de nuevo ingreso. Se deben almacenar datos de identificación sin procesar condicionalmente la información.
+
+### 2. Tabla Entrada-Proceso-Salida
 
 | Entradas | Procesos / Fórmulas | Salidas |
 | :--- | :--- | :--- |
-| `variable1` (Tipo)<br>`variable2` (Tipo) | `proceso1 = formula1`<br>`proceso2 = formula2` | `salida1` (Tipo)<br>`salida2` (Tipo) |
+| `numeroControl` (Entero)<br>`nombreCompleto` (Texto / Cadena)<br>`promedioPrepa` (Real)<br>`estatusDocumentos` (Lógico) | Lectura secuencial de datos e impresión estructurada. | Ficha escolar impresa con los valores ingresados. |
 
-## 3. Algoritmo en Lenguaje Natural
+### 3. Algoritmo en Lenguaje Natural
 1. Inicio del algoritmo.
-2. Declarar las variables necesarias.
-3. Solicitar y capturar las entradas desde el teclado.
-4. Ejecutar las operaciones aritméticas y/o lógicas correspondientes.
-5. Desplegar los resultados formateados al usuario.
-6. Fin del algoritmo.
+2. Pedir al usuario que ingrese el `numeroControl`, `nombreCompleto`, `promedioPrepa` y `estatusDocumentos`.
+3. Guardar los datos ingresados en sus correspondientes variables respetando la convención camelCase.
+4. Generar y desplegar en pantalla la ficha digital formateada con la información del estudiante.
+5. Fin del algoritmo.
