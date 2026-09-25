@@ -1,10 +1,10 @@
 # Reporte de Reflexión y Autoevaluación
 
 ## 1. Retos y Dificultades Encontradas
-El mayor reto fue entender bien la parte de los tipos de datos en PSeInt y la declaración de variables. Me confundía un poco al decidir si el número de control debía ser un número entero o una cadena de texto, y me daba duda de cómo pedir el estatus de los documentos como un valor Lógico. Lo resolví preguntándole al profe y viendo ejemplos donde las variables se declaran explícitamente antes de usarlas.
+El reto más grande fue aprender a meter decisiones `Si-Entonces-Sino` adentro de un ciclo que se repite un número exacto $N$ de veces[cite: 20, 23]. Me enredaba bastante pensando cómo llevar la cuenta de tres contadores distintos (`cant200`, `cant4xx`, `cant5xx`) de manera independiente mientras el bucle avanzaba[cite: 20, 23].
 
 ## 2. Errores Cometidos durante la Depuración
-Durante la ejecución paso a paso me marcaba un error de tipos de datos porque intenté ingresar una palabra normal cuando el programa me pedía la variable lógica `estatusDocumentos`. La corrección aplicada fue asegurarme de escribir únicamente `VERDADERO` o `FALSO` al momento de probar la entrada de datos en la consola.
+Al final del ciclo, los contadores de errores `4xx` y `5xx` siempre me marcaban cero aunque metiera códigos como 404 o 500[cite: 20, 23]. Descubrí que había puesto los incrementos fuera del bloque condicional correspondiente[cite: 20, 23]. Lo corregí colocando cada `cant <- cant + 1` dentro de su respectiva rama de clasificación[cite: 20, 23].
 
 ## 3. Conclusión Técnica
-Esta práctica me sirvió para entender cómo funciona un programa secuencial básico, donde los datos solo van de arriba hacia abajo sin saltarse pasos. Es importante aprender a capturar e imprimir información de forma ordenada antes de querer meter cosas más avanzadas como condicionantes.
+Esta práctica me ayudó a combinar estructuras selectivas anidadas con estructuras repetitivas[cite: 20, 23]. Aprendí a construir algoritmos capaces de procesar colecciones de datos o lotes de registros para generar reportes estadísticos organizados[cite: 20, 23].

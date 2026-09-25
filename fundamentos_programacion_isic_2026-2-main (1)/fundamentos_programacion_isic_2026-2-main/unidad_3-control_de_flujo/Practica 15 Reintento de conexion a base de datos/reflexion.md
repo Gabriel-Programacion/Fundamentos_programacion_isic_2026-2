@@ -1,10 +1,10 @@
 # Reporte de Reflexión y Autoevaluación
 
 ## 1. Retos y Dificultades Encontradas
-El mayor reto fue entender bien la parte de los tipos de datos en PSeInt y la declaración de variables. Me confundía un poco al decidir si el número de control debía ser un número entero o una cadena de texto, y me daba duda de cómo pedir el estatus de los documentos como un valor Lógico. Lo resolví preguntándole al profe y viendo ejemplos donde las variables se declaran explícitamente antes de usarlas.
+Entender el bucle `Mientras` fue todo un reto porque me costaba visualizar cómo las variables cambian en cada vuelta del ciclo[cite: 16, 23]. Se me complicó combinar dos condiciones con el operador `Y` dentro de la prueba (`intento <= 3 Y estadoConexion == FALSO`) y no sabía si debía pedir la contraseña dentro o fuera del bucle[cite: 16, 23].
 
 ## 2. Errores Cometidos durante la Depuración
-Durante la ejecución paso a paso me marcaba un error de tipos de datos porque intenté ingresar una palabra normal cuando el programa me pedía la variable lógica `estatusDocumentos`. La corrección aplicada fue asegurarme de escribir únicamente `VERDADERO` o `FALSO` al momento de probar la entrada de datos en la consola.
+El programa se me quedaba atascado en un ciclo infinito porque olvidé incrementar la variable de control[cite: 16, 23]. La consola se congelaba pidiendo datos sin parar[cite: 16, 23]. Lo corregí agregando la línea de asignación `intento <- intento + 1` en el camino donde la contraseña ingresada era incorrecta[cite: 16, 23].
 
 ## 3. Conclusión Técnica
-Esta práctica me sirvió para entender cómo funciona un programa secuencial básico, donde los datos solo van de arriba hacia abajo sin saltarse pasos. Es importante aprender a capturar e imprimir información de forma ordenada antes de querer meter cosas más avanzadas como condicionantes.
+Comprendí el funcionamiento de la estructura repetitiva pre-prueba y lo indispensable que son las variables de control[cite: 16, 23]. Aprendí que un bucle iterativo siempre debe modificar sus variables internas en cada pasada para garantizar que la condición deje de cumplirse y el programa pueda terminar[cite: 16, 23].

@@ -1,10 +1,10 @@
 # Reporte de Reflexión y Autoevaluación
 
 ## 1. Retos y Dificultades Encontradas
-El mayor reto fue entender bien la parte de los tipos de datos en PSeInt y la declaración de variables. Me confundía un poco al decidir si el número de control debía ser un número entero o una cadena de texto, y me daba duda de cómo pedir el estatus de los documentos como un valor Lógico. Lo resolví preguntándole al profe y viendo ejemplos donde las variables se declaran explícitamente antes de usarlas.
+Mi mayor problema fue organizar la lógica de los rangos numéricos con decisiones anidadas[cite: 14, 23]. No sabía muy bien cómo conectar dos condiciones a la vez con el operador `Y` para verificar si el puerto estaba entre dos límites (por ejemplo, entre 1025 y 49151)[cite: 14, 23]. El diagrama se me hacía muy enredado por tantas ramas de `Sino`[cite: 14, 23].
 
 ## 2. Errores Cometidos durante la Depuración
-Durante la ejecución paso a paso me marcaba un error de tipos de datos porque intenté ingresar una palabra normal cuando el programa me pedía la variable lógica `estatusDocumentos`. La corrección aplicada fue asegurarme de escribir únicamente `VERDADERO` o `FALSO` al momento de probar la entrada de datos en la consola.
+Al ingresar números como 2000 me los mandaba como "Puerto Inválido" porque había colocado mal la condición anidada del segundo rango y la computadora no entraba a evaluar el cono correcto[cite: 14, 23]. Lo solucioné encadenando los `Si-Entonces-Sino` uno dentro de la rama falsa del anterior de manera ordenada[cite: 14, 23].
 
 ## 3. Conclusión Técnica
-Esta práctica me sirvió para entender cómo funciona un programa secuencial básico, donde los datos solo van de arriba hacia abajo sin saltarse pasos. Es importante aprender a capturar e imprimir información de forma ordenada antes de querer meter cosas más avanzadas como condicionantes.
+La práctica me sirvió para comprender la utilidad de los condicionales anidados al clasificar variables continuas en múltiples categorías[cite: 14, 23]. Aprendí que evaluar rangos paso a paso permite ir descartando opciones hasta dejar un caso por defecto para los valores fuera de rango[cite: 14, 23].

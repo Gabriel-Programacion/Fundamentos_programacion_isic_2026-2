@@ -1,10 +1,10 @@
 # Reporte de Reflexión y Autoevaluación
 
 ## 1. Retos y Dificultades Encontradas
-El mayor reto fue entender bien la parte de los tipos de datos en PSeInt y la declaración de variables. Me confundía un poco al decidir si el número de control debía ser un número entero o una cadena de texto, y me daba duda de cómo pedir el estatus de los documentos como un valor Lógico. Lo resolví preguntándole al profe y viendo ejemplos donde las variables se declaran explícitamente antes de usarlas.
+Al principio me costó trabajo entender la estructura `Según` (switch) porque estaba acostumbrado a poner puros `Si-Entonces`[cite: 15, 23]. Me confundía de qué forma debía escribir los casos numéricos y cuál era la función exacta del bloque "De Otro Modo" cuando el usuario elegía una opción inexistente[cite: 15, 23].
 
 ## 2. Errores Cometidos durante la Depuración
-Durante la ejecución paso a paso me marcaba un error de tipos de datos porque intenté ingresar una palabra normal cuando el programa me pedía la variable lógica `estatusDocumentos`. La corrección aplicada fue asegurarme de escribir únicamente `VERDADERO` o `FALSO` al momento de probar la entrada de datos en la consola.
+Cuando escribía un número diferente del 1 al 4 (como poner un 9), el programa no hacía nada y finalizaba abruptamente[cite: 15, 23]. La corrección fue agregar la cláusula `De Otro Modo:` al final de la estructura `Según` para desplegar un mensaje de error indicando que la opción seleccionada no era válida[cite: 15, 23].
 
 ## 3. Conclusión Técnica
-Esta práctica me sirvió para entender cómo funciona un programa secuencial básico, donde los datos solo van de arriba hacia abajo sin saltarse pasos. Es importante aprender a capturar e imprimir información de forma ordenada antes de querer meter cosas más avanzadas como condicionantes.
+Esta práctica me sirvió para aprender a crear menús e intérpretes de comandos de manera limpia mediante estructuras de selección múltiple[cite: 15, 23]. Descubrí que usar `Según` es mucho más legible y eficiente que anidar bastantes condicionales dobles cuando trabajamos con opciones discretas[cite: 14, 15, 23].

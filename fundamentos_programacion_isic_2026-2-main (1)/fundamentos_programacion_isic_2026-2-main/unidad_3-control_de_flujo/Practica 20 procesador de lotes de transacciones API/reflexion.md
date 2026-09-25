@@ -1,10 +1,10 @@
 # Reporte de Reflexión y Autoevaluación
 
 ## 1. Retos y Dificultades Encontradas
-El mayor reto fue entender bien la parte de los tipos de datos en PSeInt y la declaración de variables. Me confundía un poco al decidir si el número de control debía ser un número entero o una cadena de texto, y me daba duda de cómo pedir el estatus de los documentos como un valor Lógico. Lo resolví preguntándole al profe y viendo ejemplos donde las variables se declaran explícitamente antes de usarlas.
+Como esta práctica junta todo lo visto (ciclos, condicionales anidados, contadores, acumuladores y validaciones), me sentí abrumado al principio[cite: 21, 23]. El mayor reto fue coordinar el orden de todo: mostrar el menú, validar el tipo de transacción, comprobar que el monto fuera positivo y revisar si había saldo suficiente antes de restar dinero[cite: 10, 11, 21, 23].
 
 ## 2. Errores Cometidos durante la Depuración
-Durante la ejecución paso a paso me marcaba un error de tipos de datos porque intenté ingresar una palabra normal cuando el programa me pedía la variable lógica `estatusDocumentos`. La corrección aplicada fue asegurarme de escribir únicamente `VERDADERO` o `FALSO` al momento de probar la entrada de datos en la consola.
+Me salía el error "La variable no existe" o "La asignación de valores solo se realiza en campos variables" porque en el diagrama intenté poner comparaciones en el bloque de lectura o no había leído el `monto` antes de evaluarlo en el rombo[cite: 10, 11, 23]. Lo corregí asegurándome de usar un trapezoide exclusivo para leer `monto` justo antes del rombo `monto > 0`[cite: 10, 11, 23].
 
 ## 3. Conclusión Técnica
-Esta práctica me sirvió para entender cómo funciona un programa secuencial básico, donde los datos solo van de arriba hacia abajo sin saltarse pasos. Es importante aprender a capturar e imprimir información de forma ordenada antes de querer meter cosas más avanzadas como condicionantes.
+Este proyecto integrador me sirvió para entender cómo interactúan los componentes de control de flujo en un programa real más complejo[cite: 21, 23]. Comprendí cómo llevar un control de estado en tiempo real (`saldoCuenta`), hacer validaciones estrictas y producir un balance financiero estructurado al terminar el lote[cite: 21, 23].
